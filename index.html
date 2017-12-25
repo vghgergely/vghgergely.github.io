@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <style type="text/css">
+        .slider{display:none}
+    </style>
+</head>
+<body>
+
+<div class="row">
+<!-- uncomment code for absolute positioning tweek see top comment in css -->
+<!-- <div class="absolute-wrapper"> </div> -->
+<!-- Menu -->
+<div class="side-menu" id="spy">
+
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <div class="brand-wrapper">
+                <!-- Hamburger -->
+                <button type="button" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!-- Brand -->
+                <div class="brand-name-wrapper">
+                    <a style="color: #b1033b" class="navbar-brand" href="#">
+                        <h1>Gergely Virágh</h1>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- Main Menu -->
+        <div class="side-menu-container">
+            <ul class="nav navbar-nav">
+
+                <li><a href="#about"><span class="glyphicon glyphicon-user"></span> About</a></li>
+                <li><a href="#experience"><span class="glyphicon glyphicon-briefcase"></span> Experience</a></li>
+                <li><a href="#education"><span class="glyphicon glyphicon-education"></span> Education</a></li>
+                <li><a href="#projects"><span class="glyphicon glyphicon-list-alt"></span> Projects</a></li>
+                <li><a href="#skills"><span class="glyphicon glyphicon-tasks"></span> Skills</a></li>
+                <li><a href="#contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+</div>
+
+<!-- Main Content -->
+<div class="container-fluid" data-spy="scroll" data-target="#spy" id="main">
+    <div class="side-body">
+
+        <section id="about" class="scrollspy">
+            <p class="claret section-header">About</p>
+            <div class="section-main">
+
+                <p>I am an aspiring .NET Developer recently relocated to Berlin after finishing my Bachelor’s degree in Mechatronic Engineering in Hungary, with the goal of finding a job in the field and starting my professional career here. After finishing my studies as a Mechatronics Engineer, I’ve decided to build on my existing C# knowledge, which eventually led me to ASP.NET MVC, where I found that I really enjoy working with and learning about .NET, which is why I chose to further pursue this path and deepen my knowledge both in front-end and back-end developing (mostly back-end). Using this time, through books, courses and building my own website, I acquired a solid grasp on HTML5, CSS3, JavaScript, jQuery and Web API, along with being proficient in C# and ASP.NET MVC.
+
+                </p>
+                <p>As a software developer, I would like to use my skills at a company alongside experienced developers, where I could be a valuable member of the team, while learning as much as I can about Design Patterns, Best Practices with the goal of writing clean, efficient code.</p>
+
+            </div>
+        </section>
+        <section id="experience" class="scrollspy">
+            <p class="claret section-header">Experience</p>
+            <div class="section-main">
+
+                <!--<div class="card">
+                    <img class="card-img-top" src="..." alt="Meme kep"/>
+                    <div class="card-body">
+                        <h4 class="card-title">Meme</h4>
+
+
+                    </div>
+                </div>-->
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="http://studiotech.hu/en" style="text-decoration: none" target="_blank">
+                                <img class="card-title-image" src="img/st_logo_big.jpg"/>
+
+                            </a>
+                            <a href="http://studiotech.hu/en" target="_blank">
+                                <span class="card-company">Studiotech Hungary Kft.</span>
+                            </a>
+                        </h4>
+                        <div class="card-role">Trainee</div>
+                        <hr/>
+                        <p class="card-text">
+                            <ul>
+                                <li>Attended weekly company meetings to discuss and assign the upcoming tasks </li>
+                                <li>
+                                    Took part in a company project of designing and completing a revamp of a TV broadcast
+                                    station, including a week-long work trip to the city with us assisting in everything we could
+                                </li>
+                                <li>Proofread and translated manuals for distributed products</li>
+                                <li>Verified incoming orders to make sure they were of sufficient quality and quantity  </li>
+                                
+                            </ul>
+                        </p>
+
+                    </div>
+
+                    <div class="card-action">
+                        <span>June 2016 - August 2016</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="education" class="scrollspy">
+            <p class="claret section-header">Education</p>
+
+
+
+            <div class="section-main">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="http://www.bme.hu/?language=en" target="_blank"><span class="card-company">Budapest University of Technology and Economics</span></a>
+                        </h4>
+
+                        <hr/>
+                        <p class="card-subtitle">Mechatronic Engineering BSc.</p>
+                        <ul>
+                            <li>
+                                Thesis: Aesthetic Markers in Robot Localization
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <div class="card-action">
+                        <span>September 2013 - January 2017</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="scrollspy">
+            <p class="claret section-header">Projects</p>
+            <div class="section-main">
+                <div class="container">
+                    <div class="row" style="border: none">
+                        <div class="col-md-1"></div>
+                        <div class="card col-md-5">
+                            <h4 class="card-header">BetGo</h4>
+                            <div class="card-block">
+                                A betting site created for practice purposes
+                            </div>
+                            <button class="slidebtn">press this for info</button>
+                            <div class ="card-block slider">
+                                infoinfoinfo
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="card col-md-5">
+                            <!--<h4 class="card-header">BetGo</h4>
+                            <div class="card-block">
+                                A betting site created for practice purposes
+                            </div>
+                            <button class="btn btn-primary slidebtn">press this for dropdown</button>
+                            <div class="slider">
+                                infoinfoinfo
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="row" style="border: none">
+                        <div class="col-md-1"></div>
+                        <div class="card col-md-5"></div>
+                        <div class="col-md-1"></div>
+                        <div class="card col-md-5"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="scrollspy">
+            <p class="claret section-header">Skills</p>
+            <div class="section-main">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Front-End</h4>
+                        <hr/>
+
+                        <div class="row text-center">
+                            <div class="col-md-2"><img src="img/html.png" class="img-responsive"/>HTML5
+                            </div>
+                            <div class="col-md-2"><img src="img/css.png" class="img-responsive"/>CSS3
+                            </div>
+                            <div class="col-md-2"><img src="img/bootstrap.png" class="img-responsive"/>Bootstrap
+                            </div>
+                            <div class="col-md-2"><img src="img/jquery.gif" class="img-responsive"/>jQuery
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Back-End
+                        </h4>
+
+                        <hr/>
+
+                        <div class="row text-center">
+                            <div class="col-md-2"><img src="img/csharp.png" class="img-responsive"/>C#
+                            </div>
+                            <div class="col-md-2"><img src="img/mvc.png" class="img-responsive"/>ASP.NET MVC 5
+                            </div>
+                            <div class="col-md-2"><img src="img/python.png" class="img-responsive"/>Python
+                            </div>
+                            <div class="col-md-2"><img src="img/net.JPG" class="img-responsive"/>.NET
+                            </div>
+                            <div class="col-md-2"><img src="img/entity.png" class="img-responsive"/>Entity Framework 6
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Other
+                        </h4>
+
+                        <hr/>
+                        <div class="row text-center">
+                            <div class="col-md-2"><img src="img/git.png" class="img-responsive"/>Git
+                            </div>
+                            <div class="col-md-2"><img src="img/ps.png" class="img-responsive"/>Photoshop
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="scrollspy">
+            <p class="claret section-header">Contact</p>
+            <div class="section-main">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-1"><a href="mailto:vghgergely@gmail.com"><i class="fa fa-3x fa-envelope-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-md-4"><a href="mailto:vghgergely@gmail.com">vghgergely@gmail.com</a>
+                    </div>
+                    <div class="col-md-1"><a href="https://www.linkedin.com/in/vghgergely/" target="_blank"><i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-md-4"><a href="https://www.linkedin.com/in/vghgergely/" target="_blank">linkedin.com/in/vghgergely</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-1"><a href="http://gergoscode.blogspot.com/" target="_blank"><i class="fa fa-3x fa-rss-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-md-4"><a href="http://gergoscode.blogspot.com/" target="_blank">gergoscode.blogspot.com</a>
+                    </div>
+                    <div class="col-md-1"><a href="https://github.com/vghgergely/" target="blank"><i class="fa fa-3x fa-github-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-md-4"><a href="https://github.com/vghgergely/" target="blank">github.com/vghgergely</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+</div>
+</div>
+
+</body>
+</html>
