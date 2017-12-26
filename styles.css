@@ -12,23 +12,26 @@ body {
     overflow-x: hidden;
 }
 
-.side-menu h1 {
-    font-size: 2.5rem;
-    line-height: 40px;
-    vertical-align: middle;
-    margin-top: 30px;
-    text-align: center;
-    margin-left: 10px;
+
+
+
+
+/* education */
+
+#education .card,
+#experience .card {
+    width: 60%;
+    margin: 0 auto;
 }
 
-/* icons and stuff for that*/
-#contact .col-md-4 a{
-    line-height: 50px;
-    vertical-align: middle;
-    color: black;
+/* experience */
+
+#experience ul {
+    margin-right: 30px;
+    text-align: justify;
 }
 
-/* container */
+/* projects */
 
 #projects .container {
     width: 100%;
@@ -42,23 +45,47 @@ body {
     border: none !important;
 }
 
-/* card styles*/
-
 #projects .card {
     padding: 0;
 }
 
+
+
+.projects-arrow {
+    text-align: center;
+}
+
+#projects .summary {
+    font-style: italic;
+    height: 70px;
+}
+
+#projects h4 {
+    font-size: 30px;
+}
+
 #projects .card .card-block {
     font-size: 15px;
+    padding-bottom: 0;
+    padding-top: 15px;
+    text-align: justify;
+}
+
+#projects .card-header {
+    background-color: #e9d8bf;
+}
+
+#projects .slider {
+    height: 300px;
+}
+
+#projects .slider ul {
+    margin-bottom: 30px;
 }
 
 
 
-#education .card,
-#experience .card {
-    width: 60%;
-    margin: 0 auto;
-}
+/* skills */
 
 #skills .card {
     width: 80%;
@@ -66,11 +93,38 @@ body {
     margin-bottom: 30px;
 }
 
+#skills .img-responsive {
+    max-height: 120px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#skills h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;    
+}
+
+/*contact*/
+
+#contact .section-main {
+    margin-top: 50px;
+    height: 700px;
+}
+
+#contact .col-md-4 a{
+    line-height: 50px;
+    vertical-align: middle;
+    color: black;
+}
+
 #contact .row {
     width: 80%;
     margin: 0 auto;
     padding-bottom: 50px;
 }
+
+/* general card styles */
 
 .card-body {
     padding: 10px 10px 10px 20px;
@@ -119,15 +173,8 @@ body {
 }
 
 
-#skills h4 {
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 30px;    
-}
 
-#projects h4 {
-    font-size: 30px;
-}
+
 
 /* sections*/
 .section-header {
@@ -146,24 +193,23 @@ body {
     text-align: justify;
 }
 
-/* images*/
+/* side menu */
 
-#skills .img-responsive {
-    max-height: 120px;
-    margin: 0 auto;
-    padding-bottom: 20px;
+.side-menu h1 {
+    font-size: 2.5rem;
+    line-height: 40px;
+    vertical-align: middle;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 10px;
 }
 
-/* other */
+/* navbar */
 
-#experience ul {
-    margin-right: 30px;
-    text-align: justify;
-}
 
 nav ul a{
-    -webkit-transition: 0.5s ease;
-    transition: background-color 0.5s ease;
+    -webkit-transition: 0.35s ease;
+    transition: background-color 0.35s ease-in-out;
     color: black;
 }
 
@@ -179,10 +225,8 @@ nav ul a.active {
     
 }
 
-#contact .section-main {
-    margin-top: 50px;
-    height: 700px;
-}
+
+
 
 /* 
     Sometimes the sub menus get too large for the page and prevent the menu from scrolling, limiting functionality

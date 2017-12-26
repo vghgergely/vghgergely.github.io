@@ -4,7 +4,9 @@
     
     $(".slidebtn").click(function () {
     
-        $(this).next(".slider").slideToggle(1000);
+        $(this).parent(".projects-arrow").prev(".slider").slideToggle(1000);
+        $(this).children().toggleClass("fa-angle-double-up fa-angle-double-down");
     });
+    
 });
 
