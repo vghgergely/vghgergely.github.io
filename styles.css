@@ -72,7 +72,7 @@ body {
 }
 
 #projects .card-header {
-    background-color: #e9d8bf;
+    background-color: #7F92A5;
 }
 
 #projects .slider {
@@ -109,10 +109,25 @@ body {
 
 #contact .section-main {
     margin-top: 50px;
-    height: 700px;
+    height: 780px;
 }
 
 #contact .col-md-4 a{
+    line-height: 50px;
+    vertical-align: middle;
+    color: black;
+}
+
+#contact .col-md-1 a {
+    float: right;
+}
+
+.contact-link {
+    display: inline-block;
+}
+
+.contact-link a {
+    
     line-height: 50px;
     vertical-align: middle;
     color: black;
@@ -181,11 +196,12 @@ body {
     font-size: 34px;
     color: white;
     padding-left: 50px;
-    height: 90px;
-    line-height: 90px;
+    height: 68px;
+    line-height: 68px;
     vertical-align: middle;
     letter-spacing: 2px;
     text-transform: uppercase;
+    background-color: #4555e4;
 }
 
 .section-main {
@@ -217,15 +233,21 @@ nav ul a:focus {
     color: #777 !important;
 }
 
-nav ul a:hover,
+/*nav ul a:hover,
 nav ul a.active {
     background-color: #d2d2d2 !important;
     font-weight: bold;
     color: black !important;
     
+}*/
+
+nav ul a:hover,
+nav ul a.active {
+    background-color: #EBEBEB !important;
+    font-weight: bold;
+    color: black !important;
+    
 }
-
-
 
 
 /* 
@@ -345,10 +367,6 @@ nav ul a.active {
     
 }
 
-.claret {
-    background-color: #b1033b;
-}
-
 .side-menu .brand-wrapper {
     vertical-align: middle;
     line-height: 200px;
@@ -397,7 +415,7 @@ nav ul a.active {
     padding-left: 190px;
     width: 100%;
     background-color: #EBEBEB;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 /* small screen */
