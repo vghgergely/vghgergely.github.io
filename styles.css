@@ -10,6 +10,7 @@
 body {
     max-width: 100%;
     overflow-x: hidden;
+    position: relative;
 }
 
 
@@ -83,6 +84,13 @@ body {
     margin-bottom: 30px;
 }
 
+#projects .projects-link {
+    position: absolute;
+    top: 300px;
+
+}
+
+
 
 
 /* skills */
@@ -116,6 +124,7 @@ body {
     line-height: 50px;
     vertical-align: middle;
     color: black;
+    
 }
 
 #contact .col-md-1 a {
