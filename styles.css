@@ -1,4 +1,18 @@
-﻿
+﻿.display-alert {
+    display: none;
+
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    height: 100px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 0 20px 0 20px; 
+    text-transform: uppercase;
+    background-color: red;
+
+}
+
 :focus {
   outline: none;
 }
@@ -621,3 +635,6 @@ nav ul a.active {
     margin: 0;
   }
 }
+
+
+
